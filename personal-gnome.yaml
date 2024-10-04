@@ -1,0 +1,29 @@
+repo: 'https://pkg-repo.blendos.co/'
+
+impl: 'https://github.com/blend-os/tracks/raw/main'
+
+track: 'gnome'
+
+packages:
+    - 'micro'
+    - 'gnome-tweaks'
+    - 'nushell'
+    - 'virtualbox-guest-utils'
+    - 'caddy'
+    - 'obsidian'
+    - 'zsh'
+    - 'zsh-completions'    
+    - 'firefox'
+
+aur-packages: 
+    - 'extension-manager'
+    - 'ttf-meslo-nerd-font-powerlevel10k'
+    - 'zsh-theme-powerlevel10k-git'
+
+services:
+    - 'vboxservice'
+
+package-repos:
+    - name: 'chaotic-aur'
+      repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
+      
